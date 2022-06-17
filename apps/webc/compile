@@ -1,0 +1,165 @@
+    // sequence
+    def execute():
+        for s in self.code:
+            s.execute(win)
+    def compile(self,win):
+        for s in self.code:
+            s.compile(win)    
+
+    // clearScreen
+    def execone():
+        win.pane3.ClearScreen()
+        win.pc=win.pc+1
+    def compile():
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+
+    // set to value
+    def execone():
+        if not self.first:
+            print 'Assignment right hand side none'
+            self.value=0
+        else:
+            self.value=self.first.getvalue()
+        win.pc=win.pc+1
+    def exectwo():
+        self.lhs.setvalue(self.value)
+        win.pc=win.pc+1        
+    def compile():
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+        win.codes.append(self.exectwo)
+        win.pc=win.pc+1
+
+
+    // printLine
+    def execone():
+        win.pane3.put(10)
+        win.pc=win.pc+1
+    def compile():
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+
+    // ifElse
+    def execone():
+        if not self.first:
+            print 'Condition doesnot exist'
+        self.condition=self.first.valueof()
+        win.pc=win.pc+1
+    def exectwo():
+        if self.condition: 
+        	win.pc=win.pc+1
+        else: 
+        	win.pc=self.ll1
+    def execthree():
+        win.pc=self.ll2
+    def compile(self,win):
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+        win.codes.append(self.exectwo)
+        win.pc=win.pc+1
+        self.block1.compile(win)
+        win.codes.append(self.execthree)
+        win.pc=win.pc+1
+        self.ll1=win.pc
+        self.block2.compile(win)
+        self.ll2=win.pc      
+
+    // if
+    def execone(self,win):
+        if not self.first:
+            print 'Condition doesnot exist'
+        self.condition=self.first.valueof(win)
+        win.pc=win.pc+1
+    def exectwo(self,win):
+        if not self.condition: 
+        	win.pc=self.ll
+        else: 
+        	win.pc=win.pc+1
+    def compile(self,win):
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+        win.codes.append(self.exectwo)
+        win.pc=win.pc+1
+        self.block.compile(win)
+        self.ll=win.pc      
+
+    // while
+    def execone(self,win):
+        if not self.first:
+            print 'Condition doesnot exist'
+        self.condition=self.first.valueof(win)
+        win.pc=win.pc+1
+    def exectwo(self,win):
+        if not self.condition: 
+        	win.pc=self.ll2
+        else: 
+        	win.pc=win.pc+1
+    def execthree(self,win):
+        self.condition=self.first.eval(win)
+        win.pc=self.ll1
+    def compile(self,win):
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+        self.ll1=win.pc
+        win.codes.append(self.exectwo)
+        win.pc=win.pc+1
+        self.block.compile(win)
+        win.codes.append(self.execthree)
+        win.pc=win.pc+1
+        self.ll2=win.pc        
+
+
+    // repeat
+    def execone(self,win):
+        if self.first==None:
+            print 'This repeat statement cannot be executed.'
+            self.value=0
+        else:
+            self.value=self.first.valueof(win)
+            if self.value==None:
+                print 'This repeat statement cannot be executed.'
+                self.value=0           
+        self.ix=0
+        win.pc=win.pc+1
+    def exectwo(self,win):
+        if self.ix>=self.value: 
+        	win.pc=self.ll2
+        else: 
+        	win.pc=win.pc+1
+    def execthree(self,win):
+        self.ix=self.ix+1
+        win.pc=self.ll1
+    def compile(self,win):
+        win.codes.append(self.execone)
+        win.pc=win.pc+1
+        self.ll1=win.pc
+        win.codes.append(self.exectwo)
+        win.pc=win.pc+1
+        self.block.compile(win)
+        win.codes.append(self.execthree)
+        win.pc=win.pc+1
+        self.ll2=win.pc
+
+    // variable, array
+    def getvalue
+    def setvalue
+
+    // input
+    def getInput
+
+    // multiply
+    def getresult
+        return self.first.getresult()*self.second.getresult()
+
+    // divide, add, subtract, mod
+
+    // and, or, not
+
+    // relational operation
+
+    // math functions abs, ...
+
+
+
+

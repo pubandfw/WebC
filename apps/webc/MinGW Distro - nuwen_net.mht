@@ -1,0 +1,1550 @@
+From: <Windows Internet Explorer 8ÀÌ ÀúÀå>
+Subject: MinGW Distro - nuwen.net
+Date: Tue, 2 Aug 2011 12:10:02 +0900
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC510D.1BD01C30"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6109
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CC510D.1BD01C30
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://nuwen.net/mingw.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>MinGW Distro - =
+nuwen.net</TITLE><!-- E-mail me with the subject "Weasel Commando" to =
+get a prize. Winners so far:
+1. Aaron Y. Lee            2. Nicholas Piro   3. Sandeep Srinivasan 4. =
+Stephen C. Penner    5. Jeremy Phillips
+6. Christian Ward-Garrison 7. Thomas Neill    8. Eric Chung         9. =
+Luke Maffey          10. Andy le Chimp
+11. Luke Stebbing          12. Josh Webb      13. James Blair       14. =
+Haavard Skjaeveland 15. Dylan Mounts
+16. Randy Albert           17. Joshua Smith   18. Michael J. Wilson 19. =
+Tim Mullin          20. Matt Brotherson
+21. Piotr Szymanski        22. Seiji Morikami 23. Bryan Pakingan    24. =
+Myles Fisher        25. Michael Wrighton
+26. Richard E. Chase       27. Nick Allevato  28. Ryan Myers        29. =
+Josh Ashworth       30. Per Edgren
+31. Brad Cochran   32. Bruno Martinez Aguerre 33. Cade Foster       34. =
+Nicholas Wright     35. Adrian Rodriguez
+36. Joseph Tesmer  37. Shriramana Sharma      38. Mitchell Quille   39. =
+Patrick Lawson      40. Enrique Santos
+41. Ben Wachal     42. Manning Grinnan        43. Chris Ault        44. =
+Chris Wright        45. Tyler Barth
+46. Sam Hallman    47. Chris Smith            48. Rhys Moyne        49. =
+William Donnell     50. Forrest Kyle
+51. Eric Novak     52. William Klingelsmith 53. Ahmet Cemal Ozgezer 54. =
+Tom West            55. Ian MacLean
+56. Martin Wolff   57. Michael Hannema      58. Niklas Engstrom     59. =
+Matthew Daniel      60. Giovanni Dicanio
+61. T.E. Pannell   62. Greyson C. Wong      63. Bryce Alcock        64. =
+Max Wooding         65. Antonio Forgione
+66. Alexandre Viau 67. Rob Mass             68. Aleksey Zabrodskiy  69. =
+Brian Lee           70. Marcus Millin
+When reading the source, keep in mind that I generate it with C++.
+What you see is significantly uglier than what I work on. -->
+<META content=3Dtext/html;charset=3Dutf-8 http-equiv=3DContent-Type>
+<META content=3DIE=3DEdge http-equiv=3DX-UA-Compatible><LINK =
+rel=3Dstylesheet=20
+type=3Dtext/css href=3D"http://nuwen.net/style/stl.css"><LINK =
+rel=3Dstylesheet=20
+type=3Dtext/css href=3D"http://nuwen.net/style/print.css" media=3Dprint>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.19088"></HEAD>
+<BODY id=3Dnuwen>
+<H1 class=3Dmain>MinGW Distro - nuwen.net</H1>
+<DIV class=3Dtagline>Wisdom Like Silence</DIV>
+<HR>
+
+<TABLE class=3D"border nav">
+  <TBODY>
+  <TR class=3D"cats tr0">
+    <TD class=3D"nil td0"><SMALL>Site Info:</SMALL></TD>
+    <TD class=3D"one td1"><SMALL>Favorites:</SMALL></TD>
+    <TD class=3D"two td2"><SMALL>C++:</SMALL></TD>
+    <TD class=3D"one td3"><SMALL>Fun:</SMALL></TD>
+    <TD class=3D"two td4"><SMALL>Newer Stuff:</SMALL></TD>
+    <TD class=3D"one td5"><SMALL>Old Fun:</SMALL></TD>
+    <TD class=3D"two td6"><SMALL>Old Tech:</SMALL></TD>
+    <TD class=3D"one td7"><SMALL>Old Other:</SMALL></TD></TR>
+  <TR class=3D"odd tr1">
+    <TD class=3D"nil td0 dir_index"><SMALL><A=20
+      href=3D"http://nuwen.net/index.html">News</A></SMALL></TD>
+    <TD class=3D"one td1 dir_links"><SMALL><A=20
+      href=3D"http://nuwen.net/links.html">Links</A></SMALL></TD>
+    <TD class=3D"two td2 dir_mingw current"><SMALL>MinGW =
+Distro</SMALL></TD>
+    <TD class=3D"one td3 dir_image"><SMALL><A=20
+      href=3D"http://nuwen.net/image.html">Image =
+Hacking</A></SMALL></TD>
+    <TD class=3D"two td4 dir_sf"><SMALL><A =
+href=3D"http://nuwen.net/sf.html">SF=20
+      Reviews</A></SMALL></TD>
+    <TD class=3D"one td5 dir_poly"><SMALL><A=20
+      href=3D"http://nuwen.net/poly.html">Origami =
+Polyhedra</A></SMALL></TD>
+    <TD class=3D"two td6 dir_bwtzip"><SMALL><A=20
+      href=3D"http://nuwen.net/bwtzip.html">bwtzip</A></SMALL></TD>
+    <TD class=3D"one td7 dir_news"><SMALL><A=20
+      href=3D"http://nuwen.net/news.html">Archived =
+News</A></SMALL></TD></TR>
+  <TR class=3D"even tr2">
+    <TD class=3D"nil td0 dir_news2009"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2009.html">http://nuwen.net/news2009.html</A=
+></SMALL></TD>
+    <TD class=3D"one td1 dir_webcomics"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/webcomics.html">Webcomics</A></SMALL></TD>
+    <TD class=3D"two td2 dir_libnuwen"><SMALL><A=20
+      href=3D"http://nuwen.net/libnuwen.html">libnuwen</A></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_14882"><SMALL><A=20
+      href=3D"http://nuwen.net/14882.html">Modern C++</A></SMALL></TD>
+    <TD class=3D"one td5 dir_airplane"><SMALL><A=20
+      href=3D"http://nuwen.net/airplane.html">Paper =
+Airplane</A></SMALL></TD>
+    <TD class=3D"two td6 dir_work"><SMALL><A=20
+      href=3D"http://nuwen.net/work.html">Random Work</A></SMALL></TD>
+    <TD class=3D"one td7 dir_quotes"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/quotes.html">Quotations</A></SMALL></TD></TR>
+  <TR class=3D"odd tr3">
+    <TD class=3D"nil td0 dir_news2008"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2008.html">http://nuwen.net/news2008.html</A=
+></SMALL></TD>
+    <TD class=3D"one td1 dir_stars"><SMALL><A=20
+      href=3D"http://nuwen.net/stars.html">Rating =
+System</A></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_stl"><SMALL><A=20
+      href=3D"http://nuwen.net/stl.html">Stephan T. =
+Lavavej</A></SMALL></TD>
+    <TD class=3D"one td5 dir_dx"><SMALL><A =
+href=3D"http://nuwen.net/dx.html">Deus=20
+      Ex</A></SMALL></TD>
+    <TD class=3D"two td6 dir_png"><SMALL><A=20
+      href=3D"http://nuwen.net/png.html">PNG</A></SMALL></TD>
+    <TD class=3D"one td7 dir_books"><SMALL><A=20
+      href=3D"http://nuwen.net/books.html">Book =
+Reviews</A></SMALL></TD></TR>
+  <TR class=3D"even tr4">
+    <TD class=3D"nil td0 dir_news2007"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2007.html">http://nuwen.net/news2007.html</A=
+></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_culture"><SMALL><A=20
+      href=3D"http://nuwen.net/culture.html">Culture</A></SMALL></TD>
+    <TD class=3D"one td5 dir_reviews"><SMALL><A=20
+      href=3D"http://nuwen.net/reviews.html">Anime/SF</A></SMALL></TD>
+    <TD class=3D"two td6 dir_gcc"><SMALL><A=20
+      href=3D"http://nuwen.net/gcc.html">C++</A></SMALL></TD>
+    <TD class=3D"one td7 dir_download"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/download.html">Downloads</A></SMALL></TD></TR>
+  <TR class=3D"odd tr5">
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_news2006"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2006.html">http://nuwen.net/news2006.html</A=
+></SMALL></TD>
+    <TD class=3D"one td5 dir_seldon"><SMALL><A=20
+      href=3D"http://nuwen.net/seldon.html">Foundation</A></SMALL></TD>
+    <TD class=3D"two td6 dir_paper"><SMALL><A=20
+      href=3D"http://nuwen.net/paper.html">Mersenne =
+Primes</A></SMALL></TD>
+    <TD class=3D"one td7 dir_wallpaper"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/wallpaper.html">Wallpaper</A></SMALL></TD></TR>
+  <TR class=3D"even tr6">
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_news2005"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2005.html">http://nuwen.net/news2005.html</A=
+></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"one td7 dir_diet"><SMALL><A=20
+      href=3D"http://nuwen.net/diet.html">Diet</A></SMALL></TD></TR>
+  <TR class=3D"odd tr7">
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_news2004"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2004.html">http://nuwen.net/news2004.html</A=
+></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx></TD>
+  <TR class=3D"even tr8">
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3D"two td4 dir_news2003"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/news2003.html">http://nuwen.net/news2003.html</A=
+></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx>
+    <TD class=3Dx></TD></TR></TBODY></TABLE>
+<HR class=3Dnav>
+
+<TABLE class=3D"border nav jmp">
+  <TBODY>
+  <TR class=3D"cats tr0">
+    <TD class=3D"nil td0"><SMALL>Distro:</SMALL></TD>
+    <TD class=3D"one td1"><SMALL>Install:</SMALL></TD>
+    <TD class=3D"two td2"><SMALL>Build:</SMALL></TD></TR>
+  <TR class=3D"odd tr1">
+    <TD class=3D"nil td0"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/mingw.html#download">Download</A></SMALL></TD>
+    <TD class=3D"one td1"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#install">How To =
+Install</A></SMALL></TD>
+    <TD class=3D"two td2"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/mingw.html#components">Components</A></SMALL></T=
+D></TR>
+  <TR class=3D"even tr2">
+    <TD class=3D"nil td0"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/mingw.html#contents">Contents</A></SMALL></TD>
+    <TD class=3D"one td1"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#upgrade">How To =
+Upgrade</A></SMALL></TD>
+    <TD class=3D"two td2"><SMALL><A=20
+      =
+href=3D"http://nuwen.net/mingw.html#sources">Sources</A></SMALL></TD></TR=
+>
+  <TR class=3D"odd tr3">
+    <TD class=3D"nil td0"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#recent">Recent =
+History</A></SMALL></TD>
+    <TD class=3D"one td1"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#uninstall">How To=20
+    Uninstall</A></SMALL></TD>
+    <TD class=3Dx></TD>
+  <TR class=3D"even tr4">
+    <TD class=3D"nil td0"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#about">What MinGW =
+Is</A></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx></TD>
+  <TR class=3D"odd tr5">
+    <TD class=3D"nil td0"><SMALL><A=20
+      href=3D"http://nuwen.net/mingw.html#ancient">Ancient =
+History</A></SMALL></TD>
+    <TD class=3Dx>
+    <TD class=3Dx></TD></TR></TBODY></TABLE>
+<HR class=3Dnav>
+
+<H3 id=3Ddownload>Download</H3>
+<P>My MinGW distribution ("distro") currently contains <B>GCC 4.6.0</B> =
+and=20
+<B>Boost 1.46.1</B>.</P>
+<P><A =
+href=3D"http://nuwen.net/files/mingw/mingw-7.1.exe">mingw-7.1.exe</A> =
+(16.3=20
+MB) : This is a self-extracting archive. It's incredibly easy to =
+install; see <A=20
+href=3D"http://nuwen.net/mingw.html#install">How To Install</A> =
+below.</P>
+<H3 id=3Dcontents>Contents</H3>
+<P>The components of this distro fall into four categories:</P>
+<UL>
+  <LI>Essentials: The components of MinGW itself. They are required in =
+order to=20
+  run GCC.</LI>
+  <LI>Libraries: Useful C and C++ libraries.</LI>
+  <LI>Utilities: Programs used by programmers.</LI>
+  <LI>Utilities (Binary): More programs used by programmers. Unlike =
+everything=20
+  else, I obtained these executables from their official websites =
+instead of=20
+  building them myself.</LI></UL>
+<TABLE class=3D"border ratings">
+  <TBODY>
+  <TR class=3D"cats tr0">
+    <TD class=3D"nil td0">Essentials </TD>
+    <TD class=3D"one td1">Libraries </TD>
+    <TD class=3D"two td2">Utilities </TD>
+    <TD class=3D"one td3">Utilities (Binary) </TD></TR>
+  <TR class=3D"odd tr1">
+    <TD class=3D"nil td0"><A=20
+      href=3D"http://www.gnu.org/software/binutils/">binutils 2.21</A> =
+</TD>
+    <TD class=3D"one td1"><A href=3D"http://www.boost.org/">Boost =
+1.46.1</A> </TD>
+    <TD class=3D"two td2"><A=20
+      href=3D"http://www.gnu.org/software/coreutils/">coreutils =
+8.10</A>* </TD>
+    <TD class=3D"one td3"><A href=3D"http://7-zip.org/">7-Zip 9.20</A> =
+</TD></TR>
+  <TR class=3D"even tr2">
+    <TD class=3D"nil td0"><A href=3D"http://gcc.gnu.org/">GCC 4.6.0</A> =
+</TD>
+    <TD class=3D"one td1"><A=20
+      href=3D"http://freetype.sourceforge.net/index2.html">FreeType =
+2.4.4</A> </TD>
+    <TD class=3D"two td2"><A=20
+      href=3D"http://www.gnu.org/software/diffutils/">diffutils 3.0</A> =
+</TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr3">
+    <TD class=3D"nil td0"><A href=3D"http://mingw.org/">mingw-runtime =
+3.18</A> </TD>
+    <TD class=3D"one td1"><A href=3D"http://glew.sourceforge.net/">GLEW =
+1.5.8</A>=20
+    </TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://www.gnu.org/software/grep/">grep=20
+      2.7</A> (with <A href=3D"http://pcre.org/">PCRE 8.12</A>) </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"even tr4">
+    <TD class=3D"nil td0"><A href=3D"http://mingw.org/">w32api =
+3.17-2</A> </TD>
+    <TD class=3D"one td1"><A href=3D"http://bzip.org/">libbzip2 =
+1.0.6</A> </TD>
+    <TD class=3D"two td2"><A href=3D"http://ijg.org/">jpegtran 8c</A> =
+</TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr5">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A href=3D"http://ijg.org/">libjpeg 8c</A> =
+</TD>
+    <TD class=3D"two td2"><A href=3D"http://lame.sourceforge.net/">LAME =
+3.98.4</A>=20
+    </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"even tr6">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A href=3D"http://xiph.org/ogg/">libogg =
+1.2.2</A> </TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://www.gnu.org/software/make/">make=20
+      3.82</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr7">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A =
+href=3D"http://libpng.org/pub/png/libpng.html">libpng=20
+      1.5.2</A> </TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://savannah.gnu.org/projects/patch">patch=20
+      2.6.1</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"even tr8">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A href=3D"http://xiph.org/vorbis/">libvorbis =
+1.3.2</A>=20
+    </TD>
+    <TD class=3D"two td2"><A=20
+      href=3D"http://libpng.org/pub/png/apps/pngcheck.html">pngcheck =
+2.3.0</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr9">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A href=3D"http://www.libsdl.org/">SDL =
+1.2.14</A> </TD>
+    <TD class=3D"two td2"><A=20
+      href=3D"http://pmt.sourceforge.net/pngcrush/">pngcrush 1.7.15</A> =
+</TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"even tr10">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A=20
+      href=3D"http://www.libsdl.org/projects/SDL_mixer/">SDL_mixer =
+1.2.11</A> </TD>
+    <TD class=3D"two td2"><A=20
+      href=3D"http://entropymine.com/jason/pngrewrite/">pngrewrite =
+1.4.0</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr11">
+    <TD class=3Dx></TD>
+    <TD class=3D"one td1"><A href=3D"http://zlib.net/">zlib 1.2.5</A> =
+</TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://www.gnu.org/software/sed/">sed=20
+      4.2.1</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"even tr12">
+    <TD class=3Dx></TD>
+    <TD class=3Dx></TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://xiph.org/downloads/">vorbis-tools=20
+      1.4.0</A> </TD>
+    <TD class=3Dx></TD></TR>
+  <TR class=3D"odd tr13">
+    <TD class=3Dx></TD>
+    <TD class=3Dx></TD>
+    <TD class=3D"two td2"><A =
+href=3D"http://www.gnu.org/software/wget/">wget=20
+      1.12</A> </TD>
+    <TD class=3Dx></TD></TR></TBODY></TABLE>
+<P>* Only sha1sum, sha256sum, sha512sum, sort, uniq, and wc.</P>
+<H3 id=3Drecent>Recent History</H3>
+<TABLE class=3D"border ratings">
+  <TBODY>
+  <TR class=3D"cats tr0">
+    <TD class=3D"nil td0">Distro </TD>
+    <TD class=3D"one td1">Date </TD>
+    <TD class=3D"two td2">GCC </TD>
+    <TD class=3D"one td3">Boost </TD>
+    <TD class=3D"two td4">Changes </TD></TR>
+  <TR class=3D"odd tr1">
+    <TD class=3D"nil td0">7.1 </TD>
+    <TD class=3D"one td1">4/13/2011 </TD>
+    <TD class=3D"two td2">4.6.0 </TD>
+    <TD class=3D"one td3">1.46.1 </TD>
+    <TD class=3D"two td4">Patched: grep 2.7 (with PCRE 8.12). </TD></TR>
+  <TR class=3D"even tr2">
+    <TD class=3D"nil td0">7.0 </TD>
+    <TD class=3D"one td1">4/10/2011 </TD>
+    <TD class=3D"two td2">4.6.0 </TD>
+    <TD class=3D"one td3">1.46.1 </TD>
+    <TD class=3D"two td4">Patched: mingw-runtime 3.18. Updated: GCC =
+4.6.0,=20
+      libpng 1.5.2. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"odd tr3">
+    <TD class=3D"nil td0">6.12 </TD>
+    <TD class=3D"one td1">4/1/2011 </TD>
+    <TD class=3D"two td2">4.5.2 </TD>
+    <TD class=3D"one td3">1.46.1 </TD>
+    <TD class=3D"two td4">Updated: pngcrush 1.7.15, w32api 3.17-2. =
+Rebuilt:=20
+      Everything. </TD></TR></TBODY></TABLE>
+<P>See <A href=3D"http://nuwen.net/mingw.html#ancient">Ancient =
+History</A> below=20
+for older releases.</P>
+<H3 id=3Dabout>What MinGW Is</H3>
+<P>I recommend that anyone who is learning Standard C++ and who uses =
+Windows for=20
+a primary development environment should use two compilers: the most =
+modern=20
+version of <A href=3D"http://msdn.microsoft.com/visualc/">Microsoft =
+Visual C++</A>=20
+(currently 2010 SP1) and the most modern version of <A=20
+href=3D"http://gcc.gnu.org/">GCC</A>, the GNU Compiler Collection. Using =
+
+<I>two</I> compilers that conform closely to the Standard subjects your =
+code to=20
+more strenuous trials than using a single compiler would.</P>
+<P>There are many ports of GCC to Windows. You could always download =
+Microsoft's=20
+own <A href=3D"http://en.wikipedia.org/wiki/Interix">Subsystem For =
+Unix-Based=20
+Applications</A> (formerly <A=20
+href=3D"http://en.wikipedia.org/wiki/Microsoft_Windows_Services_for_UNIX"=
+>Services=20
+For Unix</A>). However, it contains a very old version of GCC.</P>
+<P>MinGW is another port of GCC to Windows. It is free of charge and =
+simple to=20
+use (well, as simple as toolchains ever get). It produces standalone =
+Windows=20
+executables which may be distributed in any manner.</P>
+<P>MinGW's official website, <A =
+href=3D"http://mingw.org/">mingw.org</A>, provides=20
+an installer, but it often includes an older version of GCC. It also =
+contains=20
+stuff like support for Fortran and Objective C.</P>
+<P>My distro supports only C and C++. It uses the most modern versions =
+of=20
+everything, when possible. It includes a large number of libraries and=20
+utilities. Also, it is <I>extremely</I> easy to install and =
+uninstall.</P>
+<P>Please note that I did <I>not</I> write any of the components of my =
+distro. I=20
+simply compiled most of them from source and put them together. I =
+provide=20
+instructions here for building your own distro of MinGW, if you're =
+interested in=20
+doing that.</P>
+<H3 id=3Dinstall>How To Install</H3>
+<P>First, extract the distro into <CODE>C:\MinGW</CODE> . A common =
+mistake is to=20
+create <CODE class=3Dbad>C:\MinGW\MinGW</CODE> . Don't do that. The=20
+<CODE>bin</CODE> directory and its friends should be directly under=20
+<CODE>C:\MinGW</CODE> .</P>
+<P>Next, you need to add MinGW's executables to your Path so that you =
+can invoke=20
+GCC from your Command Prompt.</P>
+<UL>
+  <LI>In Windows 7, <B>Start &gt; Right Click Computer &gt; Properties =
+&gt;=20
+  Advanced System Settings (User Account Control: Yes) &gt; Environment=20
+  Variables &gt; System Variables &gt; Path &gt; Edit</B>.</LI>
+  <LI>In Windows Vista, <B>Start &gt; Right Click Computer &gt; =
+Properties &gt;=20
+  Advanced System Settings (User Account Control: Continue) &gt; =
+Environment=20
+  Variables &gt; System Variables &gt; Path &gt; Edit</B>.</LI>
+  <LI>In Windows XP, <B>Right Click My Computer &gt; Properties &gt; =
+Advanced=20
+  &gt; Environment Variables &gt; System Variables &gt; Path &gt;=20
+Edit</B>.</LI></UL>
+<P>Directories in the Path are separated by semicolons, so append=20
+<CODE>;C:\MinGW\bin</CODE> to your Path. Do not modify any other part of =
+your=20
+Path under any circumstances. Then hit <B>OK</B>.</P>
+<P>Finally, close all of your existing Command Prompts and open up a new =
+one.=20
+Type <CODE>g++ --version</CODE> and hit Enter. You should see something =
+like=20
+this:</P>
+<TABLE class=3Dcode>
+  <TBODY>
+  <TR>
+    <TD><PRE>C:\Temp&gt;g++ --version
+g++ (GCC) 4.6.0
+Copyright (C) 2011 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is =
+NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR =
+PURPOSE.
+
+
+C:\Temp&gt;
+</PRE></TD></TR></TBODY></TABLE>
+<P>If you see something like that, then you have successfully installed=20
+MinGW.</P>
+<P>Note that you can use a directory other than <CODE>C:\MinGW</CODE> , =
+as my=20
+distro is directory independent.</P>
+<P>You should <I>not</I> modify anything in the MinGW directory unless =
+you know=20
+what you're doing. In particular, do not compile your programs =
+there!</P>
+<P><CODE>C:\MinGW\README_STL.txt</CODE> lists the distro's version, in =
+case you=20
+forget which version you have.</P>
+<H3 id=3Dupgrade>How To Upgrade</H3>
+<P>Simply replace <CODE>C:\MinGW</CODE> .</P>
+<P>I shouldn't need to warn you about extracting a newer version of the =
+distro=20
+into a directory which already contains an older version. That would =
+create a=20
+mess.</P>
+<H3 id=3Duninstall>How To Uninstall</H3>
+<P>Simply delete <CODE>C:\MinGW</CODE> .</P>
+<P>Leaving your Path alone won't hurt anything, but you can change it =
+back if=20
+you want to.</P>
+<H3 id=3Dcomponents>Components</H3>
+<P>This section is for people interested in building their own MinGW=20
+distros.</P>
+<P>Here are the binary components of my distro.</P>
+<P><A=20
+href=3D"http://nuwen.net/files/mingw/components-7.1.7z">components-7.1.7z=
+</A>=20
+(16.2 MB)</P>
+<P>To build a distro from them, put them all into the same directory and =
+extract=20
+them.</P>
+<H3 id=3Dsources>Sources</H3>
+<P>This section is for people interested in building their own MinGW=20
+distros.</P>
+<P>Here are the build scripts, patches, and unmodified sources that I =
+used to=20
+build my distro.</P>
+<P><A =
+href=3D"http://nuwen.net/files/mingw/sources-7.1.7z">sources-7.1.7z</A>=20
+(90.4 MB)</P>
+<P>The build scripts must be run in <A=20
+href=3D"http://mingw.org/msys.shtml">MSYS</A>. Here's what I used (run=20
+<CODE>extract.bat</CODE> ):</P>
+<P><A href=3D"http://nuwen.net/files/mingw/msys-7.0.7z">msys-7.0.7z</A> =
+(2.4=20
+MB)</P>
+<P>Important notes:</P>
+<UL>
+  <LI>The build scripts assume that they can use =
+<CODE>C:\Temp\gcc</CODE> as a=20
+  working directory and that they do not live directly within it. =
+Extracting=20
+  them to <CODE>C:\Temp\gcc\sources-VERSION</CODE> is fine.</LI>
+  <LI>I <I>highly</I> recommend that you execute each build script <I>by =
+
+  hand</I> before attempting to run it in one shot.</LI></UL>
+<H3 id=3Dancient>Ancient History</H3>
+<TABLE class=3D"border ratings">
+  <TBODY>
+  <TR class=3D"cats tr0">
+    <TD class=3D"nil td0">Distro </TD>
+    <TD class=3D"one td1">Date </TD>
+    <TD class=3D"two td2">GCC </TD>
+    <TD class=3D"one td3">Boost </TD>
+    <TD class=3D"two td4">Changes </TD></TR>
+  <TR class=3D"odd tr1">
+    <TD class=3D"nil td0">6.11 </TD>
+    <TD class=3D"one td1">3/13/2011 </TD>
+    <TD class=3D"two td2">4.5.2 </TD>
+    <TD class=3D"one td3">1.46.1 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.46.1. </TD></TR>
+  <TR class=3D"even tr2">
+    <TD class=3D"nil td0">6.10 </TD>
+    <TD class=3D"one td1">3/3/2011 </TD>
+    <TD class=3D"two td2">4.5.2 </TD>
+    <TD class=3D"one td3">1.46.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.46.0, coreutils 8.10, GLEW =
+1.5.8,=20
+      jpegtran 8c, libjpeg 8c, libpng 1.5.1, pngcrush 1.7.14. Rebuilt: =
+pngcheck=20
+      2.3.0, pngrewrite 1.4.0. </TD></TR>
+  <TR class=3D"odd tr3">
+    <TD class=3D"nil td0">6.9 </TD>
+    <TD class=3D"one td1">12/31/2010 </TD>
+    <TD class=3D"two td2">4.5.2 </TD>
+    <TD class=3D"one td3">1.45.0 </TD>
+    <TD class=3D"two td4">Updated: binutils 2.21, coreutils 8.8, =
+FreeType 2.4.4,=20
+      GCC 4.5.2, libogg 1.2.2, libpng 1.4.5, pngcrush 1.7.13. Rebuilt:=20
+      Everything. </TD></TR>
+  <TR class=3D"even tr4">
+    <TD class=3D"nil td0">6.8 </TD>
+    <TD class=3D"one td1">11/20/2010 </TD>
+    <TD class=3D"two td2">4.5.1 </TD>
+    <TD class=3D"one td3">1.45.0 </TD>
+    <TD class=3D"two td4">Updated: 7-Zip 9.20, Boost 1.45.0. Rebuilt: =
+SDL=20
+      1.2.14. </TD></TR>
+  <TR class=3D"odd tr5">
+    <TD class=3D"nil td0">6.7 </TD>
+    <TD class=3D"one td1">11/16/2010 </TD>
+    <TD class=3D"two td2">4.5.1 </TD>
+    <TD class=3D"one td3">1.44.0 </TD>
+    <TD class=3D"two td4">Patched: Boost 1.44.0 (fixing Boost.Thread), =
+GCC 4.5.1=20
+      (fixing LTO). Updated: coreutils 8.7, FreeType 2.4.3, GLEW 1.5.7, =
+grep=20
+      2.7, libbzip2 1.0.6, libogg 1.2.1, libpng 1.4.4, libvorbis 1.3.2, =
+w32api=20
+      3.15. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"even tr6">
+    <TD class=3D"nil td0">6.6 </TD>
+    <TD class=3D"one td1">8/22/2010 </TD>
+    <TD class=3D"two td2">4.5.1 </TD>
+    <TD class=3D"one td3">1.44.0 </TD>
+    <TD class=3D"two td4">Rebuilt: GCC 4.5.1. </TD></TR>
+  <TR class=3D"odd tr7">
+    <TD class=3D"nil td0">6.5 </TD>
+    <TD class=3D"one td1">8/18/2010 </TD>
+    <TD class=3D"two td2">4.5.1 </TD>
+    <TD class=3D"one td3">1.44.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.44.0, FreeType 2.4.2, GCC =
+4.5.1, make=20
+      3.82, pngcrush 1.7.12. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"even tr8">
+    <TD class=3D"nil td0">6.4 </TD>
+    <TD class=3D"one td1">7/17/2010 </TD>
+    <TD class=3D"two td2">4.5.0 </TD>
+    <TD class=3D"one td3">1.43.0 </TD>
+    <TD class=3D"two td4">Updated: FreeType 2.4.0, GLEW 1.5.5. =
+</TD></TR>
+  <TR class=3D"odd tr9">
+    <TD class=3D"nil td0">6.3 </TD>
+    <TD class=3D"one td1">7/9/2010 </TD>
+    <TD class=3D"two td2">4.5.0 </TD>
+    <TD class=3D"one td3">1.43.0 </TD>
+    <TD class=3D"two td4">Updated: jpegtran 8b, libjpeg 8b. Rebuilt: =
+FreeType=20
+      2.3.12. </TD></TR>
+  <TR class=3D"even tr10">
+    <TD class=3D"nil td0">6.2 </TD>
+    <TD class=3D"one td1">7/7/2010 </TD>
+    <TD class=3D"two td2">4.5.0 </TD>
+    <TD class=3D"one td3">1.43.0 </TD>
+    <TD class=3D"two td4">Updated: coreutils 8.5, grep 2.6.3, libpng =
+1.4.3,=20
+      pngcrush 1.7.11, pngrewrite 1.4.0. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"odd tr11">
+    <TD class=3D"nil td0">6.1 </TD>
+    <TD class=3D"one td1">5/5/2010 </TD>
+    <TD class=3D"two td2">4.5.0 </TD>
+    <TD class=3D"one td3">1.43.0 </TD>
+    <TD class=3D"two td4">Removed: GLee, UPX. Updated: Boost 1.43.0, =
+diffutils=20
+      3.0, GLEW 1.5.4, zlib 1.2.5. Rebuilt: libpng 1.4.1, pngcheck =
+2.3.0,=20
+      pngcrush 1.7.10, pngrewrite 1.3.0. </TD></TR>
+  <TR class=3D"even tr12">
+    <TD class=3D"nil td0">6.0 </TD>
+    <TD class=3D"one td1">4/16/2010 </TD>
+    <TD class=3D"two td2">4.5.0 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Added: GLEW 1.5.3. Patched: diffutils 2.9. =
+Updated:=20
+      GCC 4.5.0. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"odd tr13">
+    <TD class=3D"nil td0">5.5 </TD>
+    <TD class=3D"one td1">4/2/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Patched: coreutils 8.4. Updated: LAME 3.98.4, =
+libogg=20
+      1.2.0, libvorbis 1.3.1, vorbis-tools 1.4.0. </TD></TR>
+  <TR class=3D"even tr14">
+    <TD class=3D"nil td0">5.4 </TD>
+    <TD class=3D"one td1">3/21/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Removed: bzip2. (Use "7za x" instead of =
+"bunzip2".)=20
+      Updated: coreutils 8.4, diffutils 2.9. </TD></TR>
+  <TR class=3D"odd tr15">
+    <TD class=3D"nil td0">5.3 </TD>
+    <TD class=3D"one td1">3/19/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Added: LAME 3.98.3. Updated: pngcrush 1.7.10, =
+zlib=20
+      1.2.4. Rebuilt: Everything, fixing a psychotic relocation bug. =
+</TD></TR>
+  <TR class=3D"even tr16">
+    <TD class=3D"nil td0">5.2 </TD>
+    <TD class=3D"one td1">3/13/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Removed: tar. (Use "7za a", "7za l", and "7za =
+x"=20
+      instead of "tar cf", "tar tf", and "tar xf".) Updated: binutils =
+2.20.1,=20
+      jpegtran 8a, libjpeg 8a, mingw-runtime 3.18. Rebuilt: Everything. =
+</TD></TR>
+  <TR class=3D"odd tr17">
+    <TD class=3D"nil td0">5.1 </TD>
+    <TD class=3D"one td1">3/2/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.42.0 </TD>
+    <TD class=3D"two td4">Added: 7-Zip x64. ("7za" is x86, "7z" is x64.) =
+
+      Removed: factor, gzip, split. (Use "7za x" instead of "gzip -d" =
+for=20
+      decompression.) Updated: Boost 1.42.0, FreeType 2.3.12, jpegtran =
+8,=20
+      libjpeg 8, libpng 1.4.1, pngcrush 1.7.9. Rebuilt: Everything, =
+without UPX=20
+      compression. </TD></TR>
+  <TR class=3D"even tr18">
+    <TD class=3D"nil td0">5.0 </TD>
+    <TD class=3D"one td1">1/6/2010 </TD>
+    <TD class=3D"two td2">4.4.1 </TD>
+    <TD class=3D"one td3">1.41.0 </TD>
+    <TD class=3D"two td4">Updated: GCC 4.4.1-nuwen, libpng 1.4.0. =
+Rebuilt:=20
+      Everything. </TD></TR>
+  <TR class=3D"odd tr19">
+    <TD class=3D"nil td0">4.3 </TD>
+    <TD class=3D"one td1">1/1/2010 </TD>
+    <TD class=3D"two td2">4.3.3 </TD>
+    <TD class=3D"one td3">1.41.0 </TD>
+    <TD class=3D"two td4">Added: 7-Zip 4.65. Updated: binutils 2.20, =
+Boost=20
+      1.41.0, FreeType 2.3.11, gzip 1.3.13, jpegtran 7, libjpeg 7, =
+libogg 1.1.4,=20
+      libpng 1.2.41, libvorbis 1.2.3, make 3.81 20090914, mingw-runtime =
+3.17,=20
+      patch 2.6.1, pngcrush 1.7.6, SDL 1.2.14, SDL_mixer 1.2.11, sed =
+4.2.1, UPX=20
+      3.04, w32api 3.14, wget 1.12. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"even tr20">
+    <TD class=3D"nil td0">4.2 </TD>
+    <TD class=3D"one td1">5/18/2009 </TD>
+    <TD class=3D"two td2">4.3.3 </TD>
+    <TD class=3D"one td3">1.39.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.39.0, FreeType 2.3.9, =
+pngcrush=20
+      1.6.17, sed 4.2. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"odd tr21">
+    <TD class=3D"nil td0">4.1 </TD>
+    <TD class=3D"one td1">2/22/2009 </TD>
+    <TD class=3D"two td2">4.3.3 </TD>
+    <TD class=3D"one td3">1.38.0 </TD>
+    <TD class=3D"two td4">Removed: boost-jam. Updated: binutils 2.19.1, =
+Boost=20
+      1.38.0, FreeType 2.3.8, GCC 4.3.3-dw2-tdm-1, GLee 5.4, grep 2.5.4, =
+libpng=20
+      1.2.35, mingw-runtime 3.15.2, pngcrush 1.6.14. Rebuilt: =
+Everything. </TD></TR>
+  <TR class=3D"even tr22">
+    <TD class=3D"nil td0">4.0 </TD>
+    <TD class=3D"one td1">12/31/2008 </TD>
+    <TD class=3D"two td2">4.3.2 </TD>
+    <TD class=3D"one td3">1.37.0 </TD>
+    <TD class=3D"two td4">Removed: bison, flex. Updated: binutils 2.19,=20
+      boost-jam 3.1.17, GCC 4.3.2-dw2, libpng 1.2.34, mingw-runtime =
+3.15.1,=20
+      pngcrush 1.6.12, pngrewrite 1.3.0, w32api 3.13. Rebuilt: =
+Everything.=20
+</TD></TR>
+  <TR class=3D"odd tr23">
+    <TD class=3D"nil td0">3.14 </TD>
+    <TD class=3D"one td1">11/9/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.37.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.37.0, libpng 1.2.33, pngcrush =
+1.6.11.=20
+      Rebuilt: pngcheck 2.3.0, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"even tr24">
+    <TD class=3D"nil td0">3.13 </TD>
+    <TD class=3D"one td1">10/12/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.36.0 </TD>
+    <TD class=3D"two td4">Updated: GLee 5.33, libpng 1.2.32, pngcrush =
+1.6.10.=20
+      Rebuilt: pngcheck 2.3.0, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"odd tr25">
+    <TD class=3D"nil td0">3.12 </TD>
+    <TD class=3D"one td1">9/21/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.36.0 </TD>
+    <TD class=3D"two td4">Patched: FreeType 2.3.7, libjpeg 6b. =
+</TD></TR>
+  <TR class=3D"even tr26">
+    <TD class=3D"nil td0">3.11 </TD>
+    <TD class=3D"one td1">8/22/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.36.0 </TD>
+    <TD class=3D"two td4">Updated: libpng 1.2.31, pngcrush 1.6.9. =
+Rebuilt: Boost=20
+      1.36.0, pngcheck 2.3.0, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"odd tr27">
+    <TD class=3D"nil td0">3.10 </TD>
+    <TD class=3D"one td1">8/14/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.36.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.36.0, FreeType 2.3.7, =
+pngcrush 1.6.7,=20
+      wget 1.11.4. </TD></TR>
+  <TR class=3D"even tr28">
+    <TD class=3D"nil td0">3.9 </TD>
+    <TD class=3D"one td1">5/19/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.35.0 </TD>
+    <TD class=3D"two td4">Removed: cat, cvs, expand, glpng, SDL_ttf. =
+Updated:=20
+      libpng 1.2.29, pngcrush 1.6.5. Rebuilt: pngcheck 2.3.0, pngrewrite =
+1.2.1.=20
+    </TD></TR>
+  <TR class=3D"odd tr29">
+    <TD class=3D"nil td0">3.8 </TD>
+    <TD class=3D"one td1">5/5/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.35.0 </TD>
+    <TD class=3D"two td4">Updated: libpng 1.2.28, make 3.81 20080326-2, =
+UPX=20
+      3.03, wget 1.11.2. Rebuilt: pngcheck 2.3.0, pngcrush 1.6.4, =
+pngrewrite=20
+      1.2.1. </TD></TR>
+  <TR class=3D"even tr30">
+    <TD class=3D"nil td0">3.7 </TD>
+    <TD class=3D"one td1">3/31/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.35.0 </TD>
+    <TD class=3D"two td4">Updated: binutils 2.18.50 20080109-2, Boost =
+1.35.0,=20
+      bzip2 1.0.5, make 3.81 20080326, vorbis-tools 1.2.0, wget 1.11.1. =
+</TD></TR>
+  <TR class=3D"odd tr31">
+    <TD class=3D"nil td0">3.6 </TD>
+    <TD class=3D"one td1">2/28/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Updated: libpng 1.2.25, wget 1.11. Rebuilt: =
+flex=20
+      2.5.4a, pngcheck 2.3.0, pngcrush 1.6.4, pngrewrite 1.2.1. =
+</TD></TR>
+  <TR class=3D"even tr32">
+    <TD class=3D"nil td0">3.5 </TD>
+    <TD class=3D"one td1">1/13/2008 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Added: FreeType 2.3.5, SDL_ttf 2.0.9. Updated: =
+
+      binutils 2.18.50 20080109. </TD></TR>
+  <TR class=3D"odd tr33">
+    <TD class=3D"nil td0">3.4 </TD>
+    <TD class=3D"one td1">12/31/2007 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Updated: SDL 1.2.13. </TD></TR>
+  <TR class=3D"even tr34">
+    <TD class=3D"nil td0">3.3 </TD>
+    <TD class=3D"one td1">12/29/2007 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Patched: Boost 1.34.1. Updated: binutils =
+2.18.50=20
+      20071123, boost-jam 3.1.16, libpng 1.2.24, mingw-runtime 3.14, UPX =
+3.02,=20
+      w32api 3.11. Rebuilt: Everything. </TD></TR>
+  <TR class=3D"odd tr35">
+    <TD class=3D"nil td0">3.2 </TD>
+    <TD class=3D"one td1">10/21/2007 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Updated: libpng 1.2.22. Rebuilt: pngcheck =
+2.3.0,=20
+      pngcrush 1.6.4, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"even tr36">
+    <TD class=3D"nil td0">3.1 </TD>
+    <TD class=3D"one td1">9/10/2007 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Added: GLee 5.21. Updated: libpng 1.2.20. =
+Rebuilt:=20
+      pngcheck 2.3.0, pngcrush 1.6.4, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"odd tr37">
+    <TD class=3D"nil td0">3.0 </TD>
+    <TD class=3D"one td1">8/19/2007 </TD>
+    <TD class=3D"two td2">4.2.1 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Patched: boost-jam 3.1.14. Rebuilt: Boost =
+1.34.1.=20
+      Updated: GCC 4.2.1-dw2-2, grep 2.5.3, libpng 1.2.19, libvorbis =
+1.2.0,=20
+      mingw-runtime 3.13, UPX 3.01, w32api 3.10. </TD></TR>
+  <TR class=3D"even tr38">
+    <TD class=3D"nil td0">2.8 </TD>
+    <TD class=3D"one td1">8/2/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Rebuilt: SDL 1.2.12. </TD></TR>
+  <TR class=3D"odd tr39">
+    <TD class=3D"nil td0">2.7 </TD>
+    <TD class=3D"one td1">7/25/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.1 </TD>
+    <TD class=3D"two td4">Added: libogg 1.1.3, libvorbis 1.1.2, =
+SDL_mixer 1.2.8,=20
+      vorbis-tools 1.1.1. Updated: Boost 1.34.1. </TD></TR>
+  <TR class=3D"even tr40">
+    <TD class=3D"nil td0">2.6 </TD>
+    <TD class=3D"one td1">7/20/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.0 </TD>
+    <TD class=3D"two td4">Updated: pngcheck 2.3.0, SDL 1.2.12. =
+</TD></TR>
+  <TR class=3D"odd tr41">
+    <TD class=3D"nil td0">2.5 </TD>
+    <TD class=3D"one td1">5/18/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.34.0, boost-jam 3.1.14, gzip =
+1.3.12,=20
+      libpng 1.2.18, UPX 3.00. Rebuilt: pngcheck 2.2.0, pngcrush 1.6.4,=20
+      pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"even tr42">
+    <TD class=3D"nil td0">2.4 </TD>
+    <TD class=3D"one td1">5/6/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Added: pngcheck 2.2.0. </TD></TR>
+  <TR class=3D"odd tr43">
+    <TD class=3D"nil td0">2.3 </TD>
+    <TD class=3D"one td1">4/5/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Patched: patch 2.5.9. </TD></TR>
+  <TR class=3D"even tr44">
+    <TD class=3D"nil td0">2.2 </TD>
+    <TD class=3D"one td1">3/28/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Patched: GCC 4.1.2. Updated: mingw-runtime =
+3.12,=20
+      w32api 3.9. </TD></TR>
+  <TR class=3D"odd tr45">
+    <TD class=3D"nil td0">2.1 </TD>
+    <TD class=3D"one td1">3/25/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Updated: gzip 1.3.9, wget 1.10.2. Rebuilt: =
+make 3.81.=20
+    </TD></TR>
+  <TR class=3D"even tr46">
+    <TD class=3D"nil td0">2.0 </TD>
+    <TD class=3D"one td1">2/26/2007 </TD>
+    <TD class=3D"two td2">4.1.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Added: sed 4.1.5. Updated: binutils 2.17.50 =
+20070129,=20
+      GCC 4.1.2. </TD></TR>
+  <TR class=3D"odd tr47">
+    <TD class=3D"nil td0">1.13 </TD>
+    <TD class=3D"one td1">1/19/2007 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Patched: Boost 1.34.0 20061231. Updated: bzip2 =
+1.0.4,=20
+      libpng 1.2.15. Rebuilt: pngcrush 1.6.4, pngrewrite 1.2.1. =
+</TD></TR>
+  <TR class=3D"even tr48">
+    <TD class=3D"nil td0">1.12 </TD>
+    <TD class=3D"one td1">1/1/2007 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.34.x </TD>
+    <TD class=3D"two td4">Updated: Boost 1.34.0 20061231. </TD></TR>
+  <TR class=3D"odd tr49">
+    <TD class=3D"nil td0">1.11 </TD>
+    <TD class=3D"one td1">12/13/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Updated: cvs 1.12.13a. </TD></TR>
+  <TR class=3D"even tr50">
+    <TD class=3D"nil td0">1.10 </TD>
+    <TD class=3D"one td1">12/1/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Patched: libjpeg 6b. Updated: libpng 1.2.14. =
+Rebuilt:=20
+      pngcrush 1.6.4, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"odd tr51">
+    <TD class=3D"nil td0">1.9 </TD>
+    <TD class=3D"one td1">11/20/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Added: jpegtran 6b. Updated: binutils 2.17.50=20
+      20060824, libpng 1.2.13, mingw-runtime 3.11, w32api 3.8. Rebuilt: =
+pngcrush=20
+      1.6.4, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"even tr52">
+    <TD class=3D"nil td0">1.8 </TD>
+    <TD class=3D"one td1">8/8/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Added: libjpeg 6b. </TD></TR>
+  <TR class=3D"odd tr53">
+    <TD class=3D"nil td0">1.7 </TD>
+    <TD class=3D"one td1">6/28/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Updated: SDL 1.2.11. </TD></TR>
+  <TR class=3D"even tr54">
+    <TD class=3D"nil td0">1.6 </TD>
+    <TD class=3D"one td1">6/22/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Patched: Boost 1.33.1. Removed: SDL_image. =
+Updated:=20
+      boost-jam 3.1.13, cvs 1.11.22, libpng 1.2.10, make 3.81, pngcrush =
+1.6.4,=20
+      SDL 1.2.10, UPX 2.01, w32api 3.7. </TD></TR>
+  <TR class=3D"odd tr55">
+    <TD class=3D"nil td0">1.5 </TD>
+    <TD class=3D"one td1">3/12/2006 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.1 </TD>
+    <TD class=3D"two td4">Removed: gdb. Updated: binutils 2.16.91 =
+20060119,=20
+      Boost 1.33.1, boost-jam 3.1.12, cvs 1.11.21, mingw-runtime 3.9, =
+pngcrush=20
+      1.6.2, SDL 1.2.9, w32api 3.6. </TD></TR>
+  <TR class=3D"even tr56">
+    <TD class=3D"nil td0">1.4 </TD>
+    <TD class=3D"one td1">9/18/2005 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.33.0 </TD>
+    <TD class=3D"two td4">Updated: Boost 1.33.0, boost-jam 3.1.11. =
+</TD></TR>
+  <TR class=3D"odd tr57">
+    <TD class=3D"nil td0">1.3 </TD>
+    <TD class=3D"one td1">7/30/2005 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.32.0 </TD>
+    <TD class=3D"two td4">Patched: Boost 1.32.0. Updated: zlib 1.2.3. =
+Rebuilt:=20
+      pngcrush 1.5.10, pngrewrite 1.2.1. </TD></TR>
+  <TR class=3D"even tr58">
+    <TD class=3D"nil td0">1.2 </TD>
+    <TD class=3D"one td1">7/6/2005 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.32.0 </TD>
+    <TD class=3D"two td4">Added: pngcrush 1.5.10, pngrewrite 1.2.1. =
+Updated:=20
+      bzip2 1.0.3. </TD></TR>
+  <TR class=3D"odd tr59">
+    <TD class=3D"nil td0">1.1 </TD>
+    <TD class=3D"one td1">5/29/2005 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.32.0 </TD>
+    <TD class=3D"two td4">Patched: Boost 1.32.0. Updated: cvs 1.11.20. =
+</TD></TR>
+  <TR class=3D"even tr60">
+    <TD class=3D"nil td0">1.0 </TD>
+    <TD class=3D"one td1">4/25/2005 </TD>
+    <TD class=3D"two td2">3.4.2 </TD>
+    <TD class=3D"one td3">1.32.0 </TD>
+    <TD class=3D"two td4">First release. </TD></TR></TBODY></TABLE><!--
+
+FAQ: sed is broken!
+FAQ: Can you add X?
+FAQ: 7z x64.
+
+-->
+<P>I am sometimes asked why I have occasionally removed components from =
+the=20
+distro. The answer is that the distro contains exactly what I myself =
+use. When I=20
+stop using something, I remove it. This reduces the size of the distro =
+(and the=20
+components and sources archives), and also reduces the time that it =
+takes to=20
+build the distro. In any event, keeping something that I don't use =
+anymore is a=20
+bad idea; it's likely to get broken without me noticing it.</P>
+<P>If you want a debugger, instead of building gdb, I suggest using =
+MSVC's=20
+excellent debugger. Look at <A=20
+href=3D"http://nuwen.net/libnuwen.html">libnuwen</A> for an example of =
+how to=20
+build programs with GNU Make and debug them with MSVC (hint: after =
+running=20
+<CODE>$(BATCH_FILE)</CODE> , type <CODE>devenv program.exe =
+program.cc</CODE> to=20
+open it up in the debugger).</P>
+<P></P>
+<HR>
+
+<P class=3Dinline><SMALL><SPAN=20
+class=3Dpageurl>http://nuwen.net/mingw.html</SPAN><BR><IMG=20
+alt=3D"Stephan T. Lavavej" src=3D"http://nuwen.net/img/signature.png" =
+width=3D300=20
+height=3D50><BR><A =
+href=3D"mailto:stl@nuwen.net">stl@nuwen.net</A><BR>Updated=20
+4/13/2011.<BR></SMALL></P>
+<SCRIPT type=3Dtext/javascript>
+var gaJsHost =3D (("https:" =3D=3D document.location.protocol) ? =
+"https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=3D'" + gaJsHost + =
+"google-analytics.com/ga.js' =
+type=3D'text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+try {
+var pageTracker =3D _gat._getTracker("UA-12627512-1");
+pageTracker._trackPageview();
+} catch(err) {}</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01CC510D.1BD01C30
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://nuwen.net/img/signature.png
+
+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
+/FuhY43/AAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01CC510D.1BD01C30
+Content-Type: text/css;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://nuwen.net/style/stl.css
+
+BODY {
+	LINE-HEIGHT: 1.4; FONT-FAMILY: Verdana, sans-serif; BACKGROUND: =
+url(../img/background.png) #e3e0f3
+}
+CODE {
+	FONT-FAMILY: Consolas, "Courier New", monospace
+}
+PRE {
+	FONT-FAMILY: Consolas, "Courier New", monospace
+}
+A:hover {
+	COLOR: #ff0000
+}
+HR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #585858; =
+HEIGHT: 1px; COLOR: #585858; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TD {
+	LINE-HEIGHT: 1.4
+}
+PRE {
+	LINE-HEIGHT: normal
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: =
+0px
+}
+H1.main {
+	TEXT-ALIGN: center; MARGIN: 0px
+}
+DIV.tagline {
+	TEXT-ALIGN: center; FONT-VARIANT: small-caps; FONT-STYLE: italic
+}
+TABLE.img TD {
+	TEXT-ALIGN: center; VERTICAL-ALIGN: bottom
+}
+TABLE.border {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.border TD {
+	BORDER-BOTTOM: #585858 1px solid; BORDER-LEFT: #585858 1px solid; =
+BORDER-TOP: #585858 1px solid; BORDER-RIGHT: #585858 1px solid
+}
+TABLE.border TD.x {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: =
+0px
+}
+TABLE.ratings TD {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.3em
+}
+TABLE.ratings TR.cats TD {
+	FONT-WEIGHT: bold
+}
+.cats .nil {
+	BACKGROUND: #9bb1de
+}
+.cats .one {
+	BACKGROUND: #bdc8de
+}
+.cats .two {
+	BACKGROUND: #9bb1de
+}
+.odd .nil {
+	BACKGROUND: #ccdfe5
+}
+.odd .one {
+	BACKGROUND: #f2f0ff
+}
+.odd .two {
+	BACKGROUND: #e4e0ff
+}
+.even .nil {
+	BACKGROUND: #a3b8bf
+}
+.even .one {
+	BACKGROUND: #ccc8dd
+}
+.even .two {
+	BACKGROUND: #bab1de
+}
+TABLE.nav TD {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.2em; LINE-HEIGHT: normal; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 0.2em
+}
+TABLE.nav TR.cats TD {
+	FONT-WEIGHT: bold
+}
+TABLE.nav TD.dir_index {
+	FONT-WEIGHT: bold
+}
+TABLE.nav TD.current {
+	BACKGROUND: #ffc000; COLOR: #000000
+}
+TABLE.jmp {
+	MARGIN-LEFT: 2.5em
+}
+TABLE.code {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.code PRE {
+	BORDER-BOTTOM: #856fde 1px solid; BORDER-LEFT: #856fde 1px solid; =
+PADDING-BOTTOM: 0.3em; MARGIN: 0px 2.5em; PADDING-LEFT: 0.75em; =
+PADDING-RIGHT: 1.25em; BACKGROUND: #f2f0ff; BORDER-TOP: #856fde 1px =
+solid; BORDER-RIGHT: #856fde 1px solid; PADDING-TOP: 0.3em
+}
+TABLE.code PRE.bad {
+	BORDER-BOTTOM-COLOR: #de6f6f; BORDER-TOP-COLOR: #de6f6f; BACKGROUND: =
+#fff0f0; BORDER-RIGHT-COLOR: #de6f6f; BORDER-LEFT-COLOR: #de6f6f
+}
+CODE {
+	BORDER-BOTTOM: #856fde 1px solid; BORDER-LEFT: #856fde 1px solid; =
+PADDING-BOTTOM: 1px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+BACKGROUND: #f2f0ff; BORDER-TOP: #856fde 1px solid; BORDER-RIGHT: =
+#856fde 1px solid; PADDING-TOP: 0px
+}
+CODE.bad {
+	BORDER-BOTTOM-COLOR: #de6f6f; BORDER-TOP-COLOR: #de6f6f; BACKGROUND: =
+#fff0f0; BORDER-RIGHT-COLOR: #de6f6f; BORDER-LEFT-COLOR: #de6f6f
+}
+CODE.fixed {
+	BORDER-BOTTOM-COLOR: #856fde; BORDER-TOP-COLOR: #856fde; BACKGROUND: =
+#bab1de; BORDER-RIGHT-COLOR: #856fde; BORDER-LEFT-COLOR: #856fde
+}
+CODE.l {
+	PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px
+}
+CODE.r {
+	BORDER-RIGHT-WIDTH: 0px; PADDING-RIGHT: 0px
+}
+PRE CODE {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+DIV.link {
+	MARGIN-BOTTOM: 0.5em; MARGIN-LEFT: 2.5em
+}
+DIV.link SPAN.name {
+	FONT-WEIGHT: bold
+}
+DIV.link DIV.body {
+	MARGIN-LEFT: 2.5em
+}
+DIV.link SPAN.url {
+	COLOR: #585858
+}
+P.quote {
+	FONT-STYLE: italic; MARGIN-LEFT: 2.5em
+}
+.center {
+	TEXT-ALIGN: center
+}
+.inline {
+	DISPLAY: inline
+}
+.pageurl {
+	FONT-WEIGHT: bold
+}
+.date {
+	FONT-WEIGHT: bold
+}
+.book {
+	TEXT-DECORATION: underline
+}
+.magazine {
+	FONT-STYLE: italic
+}
+.song {
+	FONT-STYLE: italic
+}
+.tv {
+	FONT-STYLE: italic
+}
+TABLE.reviews TD.td0 {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap
+}
+TABLE.reviews TD.td1 {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap
+}
+TABLE.reviews TD.td0 {
+	FONT-WEIGHT: bold
+}
+TABLE.reviews TR.cats TD.td1 {
+	FONT-VARIANT: normal
+}
+TABLE.reviews TD.td1 {
+	FONT-VARIANT: small-caps
+}
+DIV.review P.headline {
+	MARGIN-BOTTOM: 0px
+}
+DIV.review SPAN.title {
+	FONT-WEIGHT: bold
+}
+DIV.review SPAN.author {
+	FONT-VARIANT: small-caps; FONT-WEIGHT: bold
+}
+DIV.review TABLE.content {
+	MARGIN-LEFT: 2.5em
+}
+DIV.review TABLE.content TD {
+	VERTICAL-ALIGN: top
+}
+DIV.review IMG.cover {
+	MARGIN: 0.5em 0.75em 0.5em 0px
+}
+DIV.review P.series {
+	FONT-STYLE: italic; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+DIV.review IMG.star {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+TABLE.theresa {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.theresa TD {
+	PADDING-RIGHT: 0.5em
+}
+TABLE.theresa H3 {
+	DISPLAY: inline
+}
+DIV.q {
+	MARGIN-LEFT: 2.5em; FONT-WEIGHT: bold
+}
+DIV.a {
+	MARGIN-LEFT: 5em
+}
+DIV.files {
+	MARGIN-LEFT: 2.5em
+}
+DIV.files P {
+	MARGIN: 0px
+}
+
+------=_NextPart_000_0000_01CC510D.1BD01C30
+Content-Type: text/css;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://nuwen.net/style/print.css
+
+TABLE.nav {
+	DISPLAY: none
+}
+HR.nav {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01CC510D.1BD01C30--
